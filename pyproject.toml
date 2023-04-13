@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "exiftool2csv"
+version = "0.1.0"
+description = "This script shall enable to batch process several files with exiftool and output them into a csv file for further processing."
+authors = ["Julian Droste <julian@jdroste.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
